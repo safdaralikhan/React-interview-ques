@@ -1,0 +1,15 @@
+
+USEMEMO
+Usememo or usecallback back dono hum use krty hai website ki perfomance ko optimse krny k liye
+usememo b values catch mai retain kr k rakhta hai first time mai us k bd jb b request ati hai wo catche 
+sy data daita ha. unwanted function ko rokny k liye use krty hai.
+usememo mai result store hota hai catche mia callback mai for function store hota ha.
+
+USECALLBACK AND MEMO
+jb b hum parent mai child component use krty hai to jb b koi state update hota hai to child component
+b chalta hia is ko rokny k liye hum MEMO use krty hai child . is sy app ki perfomance achi hoti hai
+export default memo (child).
+jesy hum koi prop pass krty hai child component mai to dubara wo achnak chalta hai har bar is ko rokny k liye phr hum 
+useCallback chalaty hai.
+
+
